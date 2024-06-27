@@ -14,6 +14,7 @@
 		407297342C2DE8540021FED2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407297332C2DE8540021FED2 /* CardView.swift */; };
 		407297362C2DE9310021FED2 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407297352C2DE9310021FED2 /* CustomBackgroundView.swift */; };
 		407297382C2DEE830021FED2 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407297372C2DEE830021FED2 /* CustomButtonView.swift */; };
+		4072973B2C2DF3910021FED2 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072973A2C2DF3910021FED2 /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		407297332C2DE8540021FED2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		407297352C2DE9310021FED2 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		407297372C2DEE830021FED2 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		4072973A2C2DF3910021FED2 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		407297232C2DE1B40021FED2 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				407297392C2DF35F0021FED2 /* Utility */,
 				407297322C2DE8400021FED2 /* Component */,
 				407297242C2DE1B40021FED2 /* HikeApp.swift */,
 				407297262C2DE1B40021FED2 /* ContentView.swift */,
@@ -82,6 +85,14 @@
 				407297372C2DEE830021FED2 /* CustomButtonView.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		407297392C2DF35F0021FED2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4072973A2C2DF3910021FED2 /* GradientButtonStyle.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				407297382C2DEE830021FED2 /* CustomButtonView.swift in Sources */,
 				407297272C2DE1B40021FED2 /* ContentView.swift in Sources */,
 				407297342C2DE8540021FED2 /* CardView.swift in Sources */,
+				4072973B2C2DF3910021FED2 /* GradientButtonStyle.swift in Sources */,
 				407297252C2DE1B40021FED2 /* HikeApp.swift in Sources */,
 				407297362C2DE9310021FED2 /* CustomBackgroundView.swift in Sources */,
 			);
