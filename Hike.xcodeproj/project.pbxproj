@@ -13,6 +13,7 @@
 		4072972C2C2DE1B50021FED2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4072972B2C2DE1B50021FED2 /* Preview Assets.xcassets */; };
 		407297342C2DE8540021FED2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407297332C2DE8540021FED2 /* CardView.swift */; };
 		407297362C2DE9310021FED2 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407297352C2DE9310021FED2 /* CustomBackgroundView.swift */; };
+		407297382C2DEE830021FED2 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407297372C2DEE830021FED2 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4072972B2C2DE1B50021FED2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		407297332C2DE8540021FED2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		407297352C2DE9310021FED2 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		407297372C2DEE830021FED2 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				407297332C2DE8540021FED2 /* CardView.swift */,
 				407297352C2DE9310021FED2 /* CustomBackgroundView.swift */,
+				407297372C2DEE830021FED2 /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407297382C2DEE830021FED2 /* CustomButtonView.swift in Sources */,
 				407297272C2DE1B40021FED2 /* ContentView.swift in Sources */,
 				407297342C2DE8540021FED2 /* CardView.swift in Sources */,
 				407297252C2DE1B40021FED2 /* HikeApp.swift in Sources */,
